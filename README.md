@@ -64,6 +64,7 @@ Shades run from 100-700 where 100 is the lightest and 700 is the darkest
 <h1 className='color__info--600'></h1>
 ```
 As with colors, background colors are also predefined with "background__"
+
 **Example**
 ``` HTML
 <div className='backgroundColor__greys--200'></div>
