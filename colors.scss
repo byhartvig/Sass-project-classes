@@ -1,0 +1,440 @@
+//Primary
+$primary: #00B67A;
+
+//Secondary
+$secondary: #0C2B34;
+
+//Info
+$info-700: hsl(194,90,15);
+$info-600: hsl(194,90,25);
+$info-500: hsl(194,90,35);
+$info-400: hsl(194,90,45);
+$info-300: hsl(194,90,55);
+$info-200: hsl(194,90,65);
+$info-100: hsl(194,90,75);
+
+//Success
+$success-700: hsl(160,100,5);
+$success-600: hsl(160,100,15);
+$success-500: hsl(160,100,25);
+$success-400: hsl(160,100,35);
+$success-300: hsl(160,100,45);
+$success-200: hsl(160,100,55);
+$success-100: hsl(160,100,65);
+
+//Warning
+$warning-700: hsl(47,73,28);
+$warning-600: hsl(47,73,38);
+$warning-500: hsl(47,73,48);
+$warning-400: hsl(47,73,58);
+$warning-300: hsl(47,73,68);
+$warning-200: hsl(47,73,78);
+$warning-100: hsl(47,73,88);
+
+//Error
+$error-700: hsl(1,85,35);
+$error-600: hsl(1,85,45);
+$error-500: hsl(1,85,55);
+$error-400: hsl(1,85,65);
+$error-300: hsl(1,85,75);
+$error-200: hsl(1,85,85);
+$error-100: hsl(1,85,95);
+
+//Accent
+$accent-700: hsl(194,64,23);
+$accent-600: hsl(194,64,33);
+$accent-500: hsl(194,64,43);
+$accent-400: hsl(194,64,53);
+$accent-300: hsl(194,64,63);
+$accent-200: hsl(194,64,73);
+$accent-100: hsl(194,64,83);
+
+//Greys
+$grey-700: hsl(210,4,40);
+$grey-600: hsl(210,4,50);
+$grey-500: hsl(210,4,60);
+$grey-400: hsl(210,4,70);
+$grey-300: hsl(210,4,80);
+$grey-200: hsl(210,4,90);
+$grey-100: hsl(210,4,100);
+
+.color {
+    &__primary {
+        color: $primary;
+    }
+
+    &__secondary {
+        color: $secondary;
+    }
+
+    &__info {
+        &--700 {
+            color: $info-700;
+        }
+
+        &--600 {
+            color: $info-600;
+        }
+
+        &--500 {
+            color: $info-500;
+        }
+
+        &--400 {
+            color: $info-400;
+        }
+
+        &--300 {
+            color: $info-300;
+        }
+
+        &--200 {
+            color: $info-200;
+        }
+
+        &--100 {
+            color: $info-100;
+        }
+    }
+
+    &__success {
+        &--700 {
+            color: $success-700;
+        }
+
+        &--600 {
+            color: $success-600;
+        }
+
+        &--500 {
+            color: $success-500;
+        }
+
+        &--400 {
+            color: $success-400;
+        }
+
+        &--300 {
+            color: $success-300;
+        }
+
+        &--200 {
+            color: $success-200;
+        }
+
+        &--100 {
+            color: $success-100;
+        }
+    }
+
+    &__warning {
+        &--700 {
+            color: $warning-700;
+        }
+
+        &--600 {
+            color: $warning-600;
+        }
+
+        &--500 {
+            color: $warning-500;
+        }
+
+        &--400 {
+            color: $warning-400;
+        }
+
+        &--300 {
+            color: $warning-300;
+        }
+
+        &--200 {
+            color: $warning-200;
+        }
+
+        &--100 {
+            color: $warning-100;
+        }
+    }
+
+    &__error {
+        &--700 {
+            color: $error-700;
+        }
+
+        &--600 {
+            color: $error-600;
+        }
+
+        &--500 {
+            color: $error-500;
+        }
+
+        &--400 {
+            color: $error-400;
+        }
+
+        &--300 {
+            color: $error-300;
+        }
+
+        &--200 {
+            color: $error-200;
+        }
+
+        &--100 {
+            color: $error-100;
+        }
+    }
+
+    &__accent {
+        &--700 {
+            color: $accent-700;
+        }
+
+        &--600 {
+            color: $accent-600;
+        }
+
+        &--500 {
+            color: $accent-500;
+        }
+
+        &--400 {
+            color: $accent-400;
+        }
+
+        &--300 {
+            color: $accent-300;
+        }
+
+        &--200 {
+            color: $accent-200;
+        }
+
+        &--100 {
+            color: $accent-100;
+        }
+    }
+
+    &__grey {
+        &--700 {
+            color: $grey-700;
+        }
+
+        &--600 {
+            color: $grey-600;
+        }
+
+        &--500 {
+            color: $grey-500;
+        }
+
+        &--400 {
+            color: $grey-400;
+        }
+
+        &--300 {
+            color: $grey-300;
+        }
+
+        &--200 {
+            color: $grey-200;
+        }
+
+        &--100 {
+            color: $grey-100;
+        }
+    }
+}
+
+.backgroundColor {
+    &__primary {
+        background-color: $primary;
+    }
+
+    &__secondary {
+        background-color: $secondary;
+    }
+
+    &__info {
+        &--700 {
+            background-color: $info-700;
+        }
+
+        &--600 {
+            background-color: $info-600;
+        }
+
+        &--500 {
+            background-color: $info-500;
+        }
+
+        &--400 {
+            background-color: $info-400;
+        }
+
+        &--300 {
+            background-color: $info-300;
+        }
+
+        &--200 {
+            background-color: $info-200;
+        }
+
+        &--100 {
+            background-color: $info-100;
+        }
+    }
+
+    &__success {
+        &--700 {
+            background-color: $success-700;
+        }
+
+        &--600 {
+            background-color: $success-600;
+        }
+
+        &--500 {
+            background-color: $success-500;
+        }
+
+        &--400 {
+            background-color: $success-400;
+        }
+
+        &--300 {
+            background-color: $success-300;
+        }
+
+        &--200 {
+            background-color: $success-200;
+        }
+
+        &--100 {
+            background-color: $success-100;
+        }
+    }
+
+    &__warning {
+        &--700 {
+            background-color: $warning-700;
+        }
+
+        &--600 {
+            background-color: $warning-600;
+        }
+
+        &--500 {
+            background-color: $warning-500;
+        }
+
+        &--400 {
+            background-color: $warning-400;
+        }
+
+        &--300 {
+            background-color: $warning-300;
+        }
+
+        &--200 {
+            background-color: $warning-200;
+        }
+
+        &--100 {
+            background-color: $warning-100;
+        }
+    }
+
+    &__error {
+        &--700 {
+            background-color: $error-700;
+        }
+
+        &--600 {
+            background-color: $error-600;
+        }
+
+        &--500 {
+            background-color: $error-500;
+        }
+
+        &--400 {
+            background-color: $error-400;
+        }
+
+        &--300 {
+            background-color: $error-300;
+        }
+
+        &--200 {
+            background-color: $error-200;
+        }
+
+        &--100 {
+            background-color: $error-100;
+        }
+    }
+
+    &__accent {
+        &--700 {
+            background-color: $accent-700;
+        }
+
+        &--600 {
+            background-color: $accent-600;
+        }
+
+        &--500 {
+            background-color: $accent-500;
+        }
+
+        &--400 {
+            background-color: $accent-400;
+        }
+
+        &--300 {
+            background-color: $accent-300;
+        }
+
+        &--200 {
+            background-color: $accent-200;
+        }
+
+        &--100 {
+            background-color: $accent-100;
+        }
+    }
+
+    &__grey {
+        &--700 {
+            background-color: $grey-700;
+        }
+
+        &--600 {
+            background-color: $grey-600;
+        }
+
+        &--500 {
+            background-color: $grey-500;
+        }
+
+        &--400 {
+            background-color: $grey-400;
+        }
+
+        &--300 {
+            background-color: $grey-300;
+        }
+
+        &--200 {
+            background-color: $grey-200;
+        }
+
+        &--100 {
+            background-color: $grey-100;
+        }
+    }
+}
+
